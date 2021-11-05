@@ -73,11 +73,7 @@ if (pets < allowedPets) {
 // assigns the highest value to `mostPets`. There's several possibilities --
 // be sure to think through all the scenarios.
 // console.log `mostPets` after the conditional has run.
-
-//Code written to handle ties.
-//friendsPets = 4
 let mostPets = pets;
-
 if (pets > friendsPets) {
     mostPets = pets;
     console.log(mostPets)
